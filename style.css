@@ -1,0 +1,200 @@
+/*
+Theme Name: New Bootstrap Theme
+Description: Theme for Renegard Box Website
+Author: Clayton Jones
+Version: 1.0
+*/
+
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+
+
+/* Fonts */
+@font-face {
+	font-family: 'BebasNeue';  
+	src: url('fonts/Bebas Neue/BebasNeue.otf');
+    
+	font-weight: normal;  
+    font-style: normal;
+}
+@font-face {
+	font-family: 'BebasNeue Thin';  
+	src: url('fonts/Bebas Neue/BebasNeue Thin.otf');
+    
+	font-weight: normal;  
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue Regular'; 
+    src: url('fonts/Bebas Neue/BebasNeue Regular.otf');
+	font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue Light'; 
+    src: url('fonts/Bebas Neue/BebasNeue Light.otf');
+	font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue Book'; 
+    src: url('fonts/Bebas Neue/BebasNeue Book.otf');
+	font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'BebasNeue Bold'; 
+    src: url('fonts/Bebas Neue/BebasNeue Bold.otf');
+	font-weight: normal; 
+    font-style: normal;
+}
+    
+
+
+
+/* test classes for fonts */
+.testclass {
+    font-family: "BebasNeue";
+    border: 1px solid #000;
+    border-radius: 4px;
+    text-align: center;
+}
+.testclass2 {
+    font-family: "BebasNeue Thin";
+    border: 1px solid #aaa;
+    outline: 4px;
+    text-align: center;
+}
+
+.testclass3 {
+    font-family: "BebasNeue Regular";
+    border: 1px solid #000;
+    border-radius: 4px;
+    text-align: center;
+}
+.testclass4 {
+    font-family: "BebasNeue Light";
+    border: 1px solid #aaa;
+    outline: 4px;
+    text-align: center;
+}
+
+.testclass5 {
+    font-family: "BebasNeue Book";
+    
+    border: 4px solid #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 3em;
+    /*padding-left: 10%;
+    padding-right: 10%;
+*/
+    
+}
+.testclass6 {
+    font-family: "BebasNeue Bold";
+    border: 1px solid #aaa;
+    outline: 4px;
+    text-align: center;
+}
+
+/*Page elements*/
+
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+     font-family: "BebasNeue Bold";
+}
+
+/* Navbar */
+
+.logo {
+/*    resize: both;
+    height: 10%;*/
+    max-height: 50px;
+}
+
+.navbar {
+    font-family: "BebasNeue Bold";
+    text-align: right;
+    color: #000;
+    
+}
+
+.navbar-inverse .navbar-inner {
+    background: #fff;
+    font-size: 22px;
+}
+
+
+/* Main Content Area */
+
+/* Hide Contact Form's Labels */
+/*p .label {
+    display: none;
+}*/
+
+/*
+For Carousel Images
+*/
+
+
+.carousel.slide{
+    /*max-height: 800px; //the largest you want the image to stretch
+    min-height: 100px; //the "container" width */
+   /* overflow: hidden;*/
+}
+.carousel-inner{
+   /*height: 600px;*/
+
+   /*left: 50%;
+   margin-left: -800px;*/
+}
+
+.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+
+.carousel-indicators {
+    /*position: absolute;*/
+/*    position: relative;*/
+    /*top: 20px;*/
+    /*bottom: 10%;
+    right: 50%;
+    z-index: 5;
+    padding: 30%;
+    list-style: none;*/
+    width: 50%;
+}
+    
+.thumbnail {
+    background-image: url('images/workout image.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+    
+}
+
+.thumbtitle {
+    
+    
+    width: 50%; /*can be in percentage also.*/
+    height: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    
+    /*height: 30em;*/
+    /*height: 13em;*/
+}
+    
